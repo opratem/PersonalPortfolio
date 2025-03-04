@@ -12,34 +12,34 @@ body {
 header {
     background: #2c3e50;
     color: #ecf0f1;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2rem; /* Smaller font size for mobile */
     font-weight: 600;
-    line-height: 1.2; /* Adjusted line height to bring the subtitle closer */
+    line-height: 1.2;
 }
 
 header h4 {
-    margin: 5px 0 0; /* Reduced margin to bring the subtitle closer to the name */
-    font-size: 1.2rem;
+    margin: 5px 0 0;
+    font-size: 1rem; /* Smaller font size for mobile */
     font-weight: 400;
-    color: #bdc3c7; /* Slightly lighter color for the subtitle */
+    color: #bdc3c7;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 15px 0 0; /* Adjusted margin to bring the nav closer to the subtitle */
+    margin: 10px 0 0; /* Adjusted margin for mobile */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: block; /* Stack nav items vertically on mobile */
+    margin: 10px 0; /* Add spacing between nav items */
 }
 
 nav ul li a {
@@ -55,29 +55,28 @@ nav ul li a:hover {
 
 /* Section Styles */
 section {
-    padding: 30px;
+    padding: 20px; /* Reduced padding for mobile */
     background: #ffffff;
-    margin: 20px auto;
-    max-width: 800px;
+    margin: 15px; /* Reduced margin for mobile */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 1.5rem; /* Smaller font size for mobile */
+    margin-bottom: 15px;
     color: #2c3e50;
 }
 
 section p {
-    font-size: 1.1rem;
+    font-size: 1rem; /* Smaller font size for mobile */
     color: #555;
 }
 
 /* Project Styles */
 .project {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 15px 0; /* Reduced margin for mobile */
+    padding: 15px; /* Reduced padding for mobile */
     background: #ecf0f1;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -89,20 +88,20 @@ section p {
 }
 
 .project h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem; /* Smaller font size for mobile */
     margin-bottom: 10px;
     color: #2c3e50;
 }
 
 .project p {
-    font-size: 1rem;
+    font-size: 0.9rem; /* Smaller font size for mobile */
     color: #555;
 }
 
 .project a {
     display: inline-block;
     margin-top: 10px;
-    padding: 10px 15px;
+    padding: 8px 12px; /* Smaller padding for mobile */
     background: #3498db;
     color: #ffffff;
     text-decoration: none;
@@ -119,7 +118,7 @@ footer {
     background: #2c3e50;
     color: #ecf0f1;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0; /* Reduced padding for mobile */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -128,5 +127,58 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 0.8rem; /* Smaller font size for mobile */
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.75rem; /* Adjust font size for smaller screens */
+    }
+
+    header h4 {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    nav ul li {
+        margin: 8px 0; /* Adjust spacing for smaller screens */
+    }
+
+    section {
+        padding: 15px; /* Adjust padding for smaller screens */
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+
+    section h2 {
+        font-size: 1.25rem; /* Adjust font size for smaller screens */
+    }
+
+    section p {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .project {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .project h3 {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
+    }
+
+    .project p {
+        font-size: 0.85rem; /* Adjust font size for smaller screens */
+    }
+
+    .project a {
+        padding: 6px 10px; /* Adjust padding for smaller screens */
+    }
+
+    footer {
+        padding: 8px 0; /* Adjust padding for smaller screens */
+    }
+
+    footer p {
+        font-size: 0.75rem; /* Adjust font size for smaller screens */
+    }
 }
