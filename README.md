@@ -11,6 +11,8 @@ This is a simple and responsive portfolio website to showcase my skills, project
 - **CSS** - Styling and layout.
 - **GitHub Pages** - Hosting the website online.
 
+![Portfolio Thumbnail](assets/PraiseThumbnail.png)
+
 ## Project Structure
 ```
 portfolio-website/
