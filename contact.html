@@ -5,30 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Praise Temiloluwa Olufemi</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;500;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Praise Temiloluwa Olufemi</h1>
-        <h4>Computer Engineer | Backend Developer</h4>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">Praise Temiloluwa Olufemi</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" aria-current="page" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out via email or social media.</p>
-        <ul>
-            <li>Email: <a href="mailto:praiseolufemi1@gmail.com">praiseolufemi1@gmail.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/praise-olufemi-4a5334177/">Praise Olufemi</a></li>
-            <li>GitHub: <a href="https://github.com/opratem">Opratem</a></li>
-            <li>Bitbucket: <a href="https://bitbucket.org/opratem">Opratem</a></li>
-        </ul>
-    </section>
+
+    <main class="main-contact">
+      <section class="contact-section">
+        <h1 class="contact-title">Get in Touch</h1>
+        <p class="contact-desc">You can connect with me via any platform below:</p>
+        <div class="contact-icons">
+          <a href="mailto:praiseolufemi@gmail.com" target="_blank" rel="noopener" class="contact-icon-btn" aria-label="Email" tabindex="0">
+            <span class="contact-tooltip">Email</span>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Email icon" class="icon-img"/>
+          </a>
+          <a href="https://www.linkedin.com/in/praise-olufemi-4a5334177/" target="_blank" rel="noopener" class="contact-icon-btn" aria-label="LinkedIn" tabindex="0">
+            <span class="contact-tooltip">LinkedIn</span>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="LinkedIn icon" class="icon-img"/>
+          </a>
+          <a href="https://github.com/opratem" target="_blank" rel="noopener" class="contact-icon-btn" aria-label="GitHub" tabindex="0">
+            <span class="contact-tooltip">GitHub</span>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub icon" class="icon-img"/>
+          </a>
+          <a href="https://bitbucket.org/opratem" target="_blank" rel="noopener" class="contact-icon-btn" aria-label="Bitbucket" tabindex="0">
+            <span class="contact-tooltip">Bitbucket</span>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" alt="Bitbucket icon" class="icon-img"/>
+          </a>
+        </div>
+      </section>
+    </main>
 
     <footer>
         <p>&copy; 2025 Praise Temiloluwa Olufemi. All rights reserved.</p>

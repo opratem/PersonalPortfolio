@@ -3,34 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://opratem.github.io/PersonalPortfolio/assets/PraiseThumbnail.png">
+    <meta property="og:image" content="assets/hero-bg.png">
     <title>Praise Temiloluwa Olufemi - Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;500;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Praise Temiloluwa Olufemi</h1>
-        <h4>Computer Engineer | Backend Developer</h4>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">Praise Temiloluwa Olufemi</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Welcome to My Portfolio</h2>
-        <p>"Hello! I am a Certified Computer Engineer and Backend Developer specializing in Java, SQL, and Web Technologies.
-            With practical knowledge in Computer Programming, Networking, and Software Development,
-            I am passionate about building efficient and scalable backend systems.
-            Currently, I am an intern at FlexiSAF, where I work on database and software development projects,
-            gaining hands-on experience in real-world applications.
-            Eager to expand my expertise, I am also diving into web development, utilizing skills in HTML, CSS,
-            and JavaScript to contribute effectively to team projects and further enhance my professional growth."</p>
-        <p>Explore my projects and skills!</p>
+    <section class="hero">
+        <div class="hero-bg-overlay"></div>
+        <img class="hero-bg-img" src="assets/hero-bg.png" alt="Hero background" />
+        <div class="hero-content">
+            <h1 class="hero-title">Praise Temiloluwa Olufemi</h1>
+            <h2 class="hero-subtitle">Computer Engineer | Backend Developer</h2>
+            <div class="hero-tech-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" title="Django"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" title="Spring Boot" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" style="background:#fff;border-radius:50%;padding:4px;width:40px;height:40px;"/>
+            </div>
+            <a href="projects.html" class="cta-btn">Explore My Portfolio</a>
+        </div>
     </section>
-
-
+    <section class="about">
+        <div class="about-wrapper">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I am a Certified Computer Engineer and Backend Developer with expertise in Java, Spring Boot, SQL, and Web Technologies. I specialize in designing and developing secure, scalable backend systems and RESTful APIs. With a strong foundation in computer programming, networking, and software development, I also bring frontend experience using React, HTML, CSS, and JavaScript to build responsive, user-friendly web interfaces. Currently expanding my full-stack development skills, I’m passionate about creating clean, maintainable code and contributing to impactful software solutions through collaboration, problem-solving, and continuous learning.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Praise Temiloluwa Olufemi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
