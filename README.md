@@ -9,6 +9,7 @@ This is a simple and responsive portfolio website to showcase my skills, project
 ## Technologies Used
 - **HTML** - Structure of the website.
 - **CSS** - Styling and layout.
+- **JavaScript** - Mobile functionality.
 - **GitHub Pages** - Hosting the website online.
 
 ![Portfolio Thumbnail](assets/PraiseThumbnail.png)
@@ -21,7 +22,9 @@ portfolio-website/
 │── contact.html       # Contact Page
 │── styles.css         # Stylesheet
 │── assets/
-│   └── hero-bg.png    # Hero Section Background
-│   └── PraiseThumbnail.png  # Portfolio Thumbnail
-│── README.md          # Project Documentation
+│    └── js 
+│        └── main.js          # Mobile Functionality   
+│    └── hero-bg.png          # Hero Section Background
+│    └── PraiseThumbnail.png  # Portfolio Thumbnail
+│── README.md                 # Project Documentation
 ```

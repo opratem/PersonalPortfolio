@@ -3,90 +3,131 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Projects by Praise Temiloluwa Olufemi - Showcase of web and software development projects using Java, Spring Boot, React and more">
+    <meta property="og:title" content="Projects - Praise Temiloluwa Olufemi">
+    <meta property="og:description" content="Explore my portfolio of software development projects">
+    <meta property="og:type" content="website">
     <title>Projects - Praise Temiloluwa Olufemi</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;500;400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header class="navbar">
-        <div class="nav-container">
-            <div class="brand">Praise Temiloluwa Olufemi</div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html" aria-current="page" class="active">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="projects-section">
-            <h2 class="projects-title">Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card fade-in" tabindex="0">
-                    <div class="project-icons" aria-label="Technologies used: Spring-boot, React, JavaScript, Java, PostgreSQL, Html, CSS">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" title="Spring Boot" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript"/>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" title="PostgreSQL" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven" title="Maven" />
-                    </div>
-                    <h3>School Employee Management System</h3>
-                    <p>A web-based CRUD application designed to help schools manage employee records and leave requests efficiently.</p>
-                    <a href="https://github.com/opratem/schoolems" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
-                <div class="project-card fade-in" tabindex="0">
-                    <div class="project-icons" aria-label="Technologies used: HTML5, CSS3">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
-                    </div>
-                    <h3>Personal Portfolio</h3>
-                    <p>Designed a Personal Portfolio for myself showing my skills and Projects</p>
-                    <a href="https://github.com/opratem/PersonalPortfolio" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
-                <div class="project-card fade-in" tabindex="0">
-                    <div class="project-icons" aria-label="Technologies used: Java, PostgreSQL, Maven">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" title="PostgreSQL" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven" title="Maven" />
-                    </div>
-                    <h3>Employee Management System</h3>
-                    <p>A backend system for managing employees work durations(check in and check out), built using Java, PostgreSQL, and Maven.</p>
-                    <a href="https://bitbucket.org/opratem/employeemanagementsystem/src/master/" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
-                <div class="project-card fade-in" tabindex="0">
-                    <div class="project-icons" aria-label="Technologies used: Java">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
-                    </div>
-                    <h3>Employee Attendance Tracker</h3>
-                    <p>This is a Java-based application that allows you to track employee attendance by recording check-in and check-out times. It calculates the total hours worked by each employee and provides a summary of their attendance records.</p>
-                    <a href="https://github.com/opratem/EmployeeAttendanceTracker" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
-                <div class="project-card fade-in" tabindex="0">
-                    <div class="project-icons" aria-label="Technologies used: Java">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
-                    </div>
-                    <h3>Enhancement Request Annotation</h3>
-                    <p>This project demonstrates how to create and use a custom annotation in Java for tracking enhancement requests.</p>
-                    <a href="https://github.com/opratem/EnhancementRequestAnnotation" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
+<!-- Loading Screen -->
+<div class="loading">
+    <div class="loading-spinner"></div>
+</div>
 
-                <div class="project-card fade-in" tabindex="0">
-                    <div class="project-icons" aria-label="Technologies used: HTML5, CSS3">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
-                    </div>
-                    <h3>CV Template</h3>
-                    <p>A CV Template Project</p>
-                    <a href="https://github.com/opratem/EnhancementRequestAnnotation" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
+<header class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="brand">Praise Temiloluwa Olufemi</a>
+        <div class="nav-actions">
+            <!-- Theme Toggle Button -->
+            <button class="theme-toggle" aria-label="Toggle dark/light mode">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <!-- Mobile Menu Toggle -->
+            <div class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Praise Temiloluwa Olufemi. All rights reserved.</p>
-    </footer>
+        </div>
+        <nav aria-label="Main navigation">
+            <ul role="menubar">
+                <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                <li role="none"><a href="projects.html" role="menuitem" aria-current="page" class="active">Projects</a></li>
+                <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="projects-section">
+    <h2 class="projects-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card scroll-reveal" tabindex="0">
+            <div class="project-icons" aria-label="Technologies used: Spring-boot, React, JavaScript, Java, PostgreSQL, Html, CSS">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" title="Spring Boot" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" title="PostgreSQL" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven" title="Maven" />
+            </div>
+            <h3>School Employee Management System</h3>
+            <p>A web-based CRUD application designed to help schools manage employee records and leave requests efficiently.</p>
+            <a href="https://github.com/opratem/schoolems" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="project-card scroll-reveal" tabindex="0">
+            <div class="project-icons" aria-label="Technologies used: HTML5, CSS3">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
+            </div>
+            <h3>Personal Portfolio</h3>
+            <p>Designed a Personal Portfolio for myself showing my skills and Projects</p>
+            <a href="https://github.com/opratem/PersonalPortfolio" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="project-card scroll-reveal" tabindex="0">
+            <div class="project-icons" aria-label="Technologies used: Java, PostgreSQL, Maven">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" title="PostgreSQL" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven" title="Maven" />
+            </div>
+            <h3>Employee Management System</h3>
+            <p>A backend system for managing employees work durations(check in and check out), built using Java, PostgreSQL, and Maven.</p>
+            <a href="https://bitbucket.org/opratem/employeemanagementsystem/src/master/" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="project-card scroll-reveal" tabindex="0">
+            <div class="project-icons" aria-label="Technologies used: Java">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
+            </div>
+            <h3>Employee Attendance Tracker</h3>
+            <p>This is a Java-based application that allows you to track employee attendance by recording check-in and check-out times. It calculates the total hours worked by each employee and provides a summary of their attendance records.</p>
+            <a href="https://github.com/opratem/EmployeeAttendanceTracker" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="project-card scroll-reveal" tabindex="0">
+            <div class="project-icons" aria-label="Technologies used: Java">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
+            </div>
+            <h3>Enhancement Request Annotation</h3>
+            <p>This project demonstrates how to create and use a custom annotation in Java for tracking enhancement requests.</p>
+            <a href="https://github.com/opratem/EnhancementRequestAnnotation" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="project-card scroll-reveal" tabindex="0">
+            <div class="project-icons" aria-label="Technologies used: HTML5, CSS3">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" />
+            </div>
+            <h3>CV Template</h3>
+            <p>A CV Template Project</p>
+            <a href="https://github.com/opratem/EnhancementRequestAnnotation" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Praise Temiloluwa Olufemi. All rights reserved.</p>
+</footer>
+
+<!-- Main JavaScript -->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
