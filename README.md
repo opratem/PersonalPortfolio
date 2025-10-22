@@ -17,14 +17,14 @@ This is a simple and responsive portfolio website to showcase my skills, project
 ## Project Structure
 ```
 portfolio-website/
-│── index.html         # Home Page
-│── projects.html      # Projects Page
-│── contact.html       # Contact Page
-│── styles.css         # Stylesheet
+│── index.html                # Home Page
+│── projects.html             # Projects Page
+│── contact.html              # Contact Page
+│── styles.css                # Stylesheet
 │── assets/
-│    └── js 
-│        └── main.js          # Mobile Functionality   
-│    └── hero-bg.png          # Hero Section Background
+│    ├── js
+│    │   └── main.js          # Mobile Functionality
+│    ├── hero-bg.png          # Hero Section Background
 │    └── PraiseThumbnail.png  # Portfolio Thumbnail
 │── README.md                 # Project Documentation
 ```
